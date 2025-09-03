@@ -1,0 +1,16 @@
+{
+	"name": "biome-repro",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"check": "biome check .",
+		"check:strict": "biome check --config-path ./biome.strict.json ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.2"
+	}
+}
